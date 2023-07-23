@@ -110,3 +110,18 @@ ul li {
 
 }
 
+/*Footer*/
+#footer{
+text-align: center;
+font-size: 35px;
+margin: 10px;
+color: #eb6734;
+text-decoration: none;
+list-style-type: none;
+line-height: 20px;
+letter-spacing: 30px;
+}
+.color-icon{
+    color: #eb6734;
+}
+
