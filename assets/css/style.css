@@ -40,3 +40,34 @@ ul li {
     text-decoration: none;
     color: #eb6734;
 }
+
+/* Hero Image style*/
+#hero-img {
+    width: 100%;
+    height: 550px;
+    
+}
+
+#hero{
+    position: relative;
+    background:url(../css/images/arena-fight.jpeg);
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-text {
+    text-align: center;
+    background-color: rgb(79, 74, 72, 0.8);
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;    
+    float:right;
+    position: relative;
+    top: 200px;
+    color:gold;
+    width: 33%;
+    height: 25%;
+    font-size:130%;
+
+}
