@@ -193,9 +193,10 @@ letter-spacing: 30px;
 }
 .sign-text {
 width: 95%;
-border: solid 1px black;
+border: solid 2px white;
 margin: 2px 0 15px 0;
-color: transparent;
+background: transparent;
+color: #fafafa;
 
 }
 
