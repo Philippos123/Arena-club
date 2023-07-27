@@ -54,6 +54,10 @@ ul li {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+
 }
 
 #hero-button{
@@ -132,6 +136,8 @@ letter-spacing: 30px;
     height: 600px;
     overflow: hidden;
     text-align: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #about-arena p {
     font-size: 100%;
@@ -211,3 +217,68 @@ color: #fafafa;
     color: #eb6734;
 }
 
+/* Media Quary Medium*/
+
+@media  screen and (max-width: 1130px){
+    .hero-text {
+    
+        top: 100px;
+        height: 120px;
+        width: 40%;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        bottom: 25%;
+        }
+         #hero-button {
+                    font-size: 26px;
+                    
+        
+                }
+                                #about-text {
+                                    text-align: center;
+                                    background-color: rgb(79, 74, 72, 0.7);
+                                    text-transform: uppercase;
+                                    padding: 10px;
+                                    margin: 20px;
+                                    position: relative;
+                                    color: gold;
+                                    height: 60%;
+                                    font-size: 100%;
+                
+                
+                                }
+                                  #arena-text {
+                                color: gold;
+                                  font-size: 18px;
+                                  padding:10px ;
+                                overflow: hidden;}
+    
+}
+
+/* Media Quary for small 930px*/
+@media  screen and (max-width: 930px) {
+    .hero-text {
+    
+            top: 100px;
+            height: 140px;
+            width: 40%;
+            text-align: center;
+            position: relative;
+            right: 25%;
+            bottom: 25%;
+        }
+                #hero-button {
+                    font-size: 30px;
+        
+        
+                }
+                                 #arena-text {
+                                     color: gold;
+                                     font-size: 20px;
+                                     padding: 10px;
+                                     overflow: hidden;
+                                 }
+
+    
+}
