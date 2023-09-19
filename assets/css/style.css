@@ -7,13 +7,13 @@
 
 
 #main-heading {
-    color:#eb6734;
+    color: #ff0000;
     text-transform: uppercase;
     position: relative;
     float: left;
     padding-left: 20px;
     margin: 0;
-    
+
 }
 
 #menu {
@@ -23,8 +23,7 @@
     position: relative;
     list-style-type: none;
     display: inline;
-    color:rgb(79, 74, 72,)
-    
+    color: rgb(33, 30, 29)
 }
 
 
@@ -32,25 +31,25 @@ ul li {
     display: inline;
     padding-right: 20px;
     font-size: 120%;
-    color:#eb6734;
+    color: #ff0000;
     text-decoration: none;
 }
 
 .links {
     text-decoration: none;
-    color: #eb6734;
+    color: #ff0000;
 }
 
 /* Hero Image style*/
 #hero-img {
     width: 100%;
     height: 550px;
-    
+
 }
 
-#hero{
+#hero {
     position: relative;
-    background:url(../css/images/arena-fight.jpeg);
+    background: url(../css/images/arena-fight.jpeg);
     height: 500px;
     width: 100%;
     overflow: hidden;
@@ -60,7 +59,7 @@ ul li {
 
 }
 
-#hero-button{
+#hero-button {
     height: 80%;
     width: 60%;
     border: none;
@@ -73,7 +72,7 @@ ul li {
     overflow: hidden;
     border: solid black 1px;
     text-align: center;
-    
+
 }
 
 .hero-text {
@@ -81,34 +80,34 @@ ul li {
     background-color: rgb(79, 74, 72, 0.7);
     text-transform: uppercase;
     padding: 10px;
-    margin: 20px;    
-    float:right;
+    margin: 20px;
+    float: right;
     position: relative;
     top: 200px;
-    color:gold;
+    color: gold;
     width: 33%;
     height: 25%;
-    font-size:130%;
+    font-size: 130%;
 
 }
 
 /* Arena Club section*/
-#arena{
-    background-color: rgb(79, 74, 72, 0.5);
+#arena {
+    background-color: rgba(4, 3, 3, 0.5);
     width: 100%;
     height: 700px;
     text-align: center;
-    text-shadow: 0 2px rgb(79, 74, 72, 0.1);
     overflow: scroll;
 }
 
-#arena-club{
+#arena-club {
     font-size: 240%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color:#eb6734
+    color: #ff0000
 }
-#arena-text{
+
+#arena-text {
     color: gold;
     font-size: 20px;
     overflow: hidden;
@@ -116,30 +115,32 @@ ul li {
 }
 
 /*Footer*/
-#footer{
-text-align: center;
-font-size: 35px;
-margin: 10px;
-color: #eb6734;
-text-decoration: none;
-list-style-type: none;
-line-height: 20px;
-letter-spacing: 30px;
+#footer {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    color: #eb6734;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 20px;
+    letter-spacing: 30px;
 }
-.color-icon{
+
+.color-icon {
     color: #eb6734;
 }
 
 /*About arena*/
-#about-arena{
+#about-arena {
     background-image: url(/assets/css/images/arena-league.jpeg);
     width: 100%;
     height: 600px;
     overflow: hidden;
-    text-align: center;  
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #about-arena p {
     font-size: 100%;
     text-transform: capitalize;
@@ -156,9 +157,10 @@ letter-spacing: 30px;
     color: gold;
     height: 60%;
     font-size: 130%;
-    
+
 
 }
+
 #fight-button {
     height: 100%;
     width: 80%;
@@ -171,58 +173,59 @@ letter-spacing: 30px;
     border: solid black 2px;
     text-align: center;
     padding: 12px 12px 12px 12px;
-    
+
 }
 
 /* Sign up Form and background*/
 
 /* Background*/
 
-#sign-background{
-   background-image: url(../css/images/spirit-blossom-ahri-skin.jpeg);
-   width: 100%;
-   height: 700px;
-   overflow: hidden;
-   background-repeat: no-repeat;
-   text-align: center;
-   background-size: cover;
+#sign-background {
+    background-image: url(../css/images/spirit-blossom-ahri-skin.jpeg);
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
 }
 
 #sign-text {
-    background-color:rgb(79, 74, 72, 0.8);
+    background-color: rgb(79, 74, 72, 0.8);
     width: 40%;
     height: 70%;
     position: absolute;
     margin: 100px 0 0 0;
     left: 80px;
     color: gold;
-    
+
 }
+
 .sign-text {
-width: 95%;
-border: solid 2px white;
-margin: 2px 0 15px 0;
-background: transparent;
-color: #fafafa;
+    width: 95%;
+    border: solid 2px white;
+    margin: 2px 0 15px 0;
+    background: transparent;
+    color: #fafafa;
 
 }
 
 /* Form button*/
 
-.button{
+.button {
     border: 2px solid gold;
     margin: 20px 0 30px 0;
     font-size: 22px;
     border-radius: 10%;
-    background: rgb(79, 74, 72,);
+    background: rgb(79, 74, 72, );
     color: #eb6734;
 }
 
 /* Media Quary Medium*/
 
-@media  screen and (max-width: 1130px){
+@media screen and (max-width: 1130px) {
     .hero-text {
-    
+
         top: 100px;
         height: 120px;
         width: 40%;
@@ -230,70 +233,78 @@ color: #fafafa;
         position: relative;
         right: 25%;
         bottom: 25%;
-        }
-         #hero-button {
-                    font-size: 26px;
-                    
-        
-                }
-                                #about-text {
-                                    text-align: center;
-                                    background-color: rgb(79, 74, 72, 0.7);
-                                    text-transform: uppercase;
-                                    padding: 10px;
-                                    margin: 20px;
-                                    position: relative;
-                                    color: gold;
-                                    height: 60%;
-                                    font-size: 100%;
-                
-                
-                                }
-                                  #arena-text {
-                                color: gold;
-                                  font-size: 18px;
-                                  padding:10px ;
-                                overflow: hidden;}
-    
+    }
+
+    #hero-button {
+        font-size: 26px;
+
+
+    }
+
+    #about-text {
+        text-align: center;
+        background-color: rgb(79, 74, 72, 0.7);
+        text-transform: uppercase;
+        padding: 10px;
+        margin: 20px;
+        position: relative;
+        color: gold;
+        height: 60%;
+        font-size: 100%;
+
+
+    }
+
+    #arena-text {
+        color: gold;
+        font-size: 18px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
 }
 
 /* Media Quary for small 930px*/
-@media  screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
     .hero-text {
-    
-            top: 100px;
-            height: 140px;
-            width: 40%;
-            text-align: center;
-            position: relative;
-            right: 25%;
-            bottom: 25%;
-        }
-                #hero-button {
-                    font-size: 30px;
-        
-        
-                }
-                                 #arena-text {
-                                     color: gold;
-                                     font-size: 20px;
-                                     padding: 10px;
-                                     overflow: hidden;
-                                 }
 
-                                 #video-y{
-                                    width: 400px;
-                                    height: 200px;
-                                 }
-                                                                 #arena {
-                                                                     background-color: rgb(79, 74, 72, 0.5);
-                                                                     width: 100%;
-                                                                     height: 550px;
-                                                                    
-                                                                 }
+        top: 100px;
+        height: 140px;
+        width: 40%;
+        text-align: center;
+        position: relative;
+        right: 25%;
+        bottom: 25%;
+    }
 
-    
+    #hero-button {
+        font-size: 30px;
+
+
+    }
+
+    #arena-text {
+        color: gold;
+        font-size: 20px;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    #video-y {
+        width: 400px;
+        height: 200px;
+    }
+
+    #arena {
+        background-color: rgb(79, 74, 72, 0.5);
+        width: 100%;
+        height: 550px;
+
+    }
+
+
 }
+
 /* Video for youtube h2*/
 .video-head {
     text-align: center;
