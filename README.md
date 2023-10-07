@@ -1,3 +1,5 @@
+[Resposniv](assets/css/images/Ima.png)
+
 Arena Club is a site that will help gamers to find new friends and new ways to enjoy the game. This website will target young gamers. We target young gamers because they may not have many friends and at a young age, it is crucial to have friends and people to look up to. I aim to create a site for boys between 12-19 years old. They come to Arena-club to find new friends and find new way of playing the game. When they sign up they will recive a Discord invite and a clan invite for the game to join with. The reason why they will come back to the site is to see if there are any new updates or new channels to join. 
 
 # Features.
@@ -80,7 +82,7 @@ The link can be you find here
   The images was taken from Riot Games own website for ther game League of legends <https://www.leagueoflegends.com/en-gb/>
 
 - Content
-  I took inspiration from the Love Running project. 
+  I took inspiration from the Love Running project. <https://philippos123.github.io/Arena-club/>
   
 
 
