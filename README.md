@@ -1,4 +1,4 @@
-Arena Club is a site that will help gamers to find new friends and new ways to enjoy the game. This website will target young gamers. We target young gamers because they may not have many friends and at a young age, it is crucial to have friends and people to look up to.
+Arena Club is a site that will help gamers to find new friends and new ways to enjoy the game. This website will target young gamers. We target young gamers because they may not have many friends and at a young age, it is crucial to have friends and people to look up to. I aim to create a site for boys between 12-19 years old. They come to Arena-club to find new friends and find new way of playing the game. When they sign up they will recive a Discord invite and a clan invite for the game to join with. The reason why they will come back to the site is to see if there are any new updates or new channels to join. 
 
 # Features.
 
@@ -47,7 +47,11 @@ The goal of the sign up form is to get people to join our club
 I would like to give all the buttons and links a hover effect.
 Try out some other fonts colors and font styles
 
-Testing-
+# Testing
+Testing of the site went well. I tried to move around in the navigation bar without any difficulty. 
+I tried to submit the form without filling in the blanks wich didin´t work. So i hade to fill in form first and when i press submit it takes me back to Index.html as i planned. I tried the anchors for youtube, instagram and facebook wich created a new tab aswell and took me to the correct website.
+I also run the websites in lighthouse. Im a bit dissapointed in the "Perfromance" But i know it´s because of the big images. 
+![Testing](assets/css/images/lighthouse.png)
 
 # Validator Testing
 
@@ -56,9 +60,27 @@ _HTML_
 Error: A charset attribute on a meta element found after the first 1024 bytes.
 At line 650, column 21
  charset="utf-8"><link rel="i
- I wasn´t able to locate this error   W3C validator
+ I wasn´t able to locate this error W3C validator
+ I tried w3c validator for Index.html, about.html and form.html
 
 _CSS_
 -No Error was found in the validator for CSS(Jigsaw) validator
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows.
+- In the github repository, navigate to the settings tab.
+- From the source section drop down menu, select the Master Branch
+- Once the master branch has been selected, i waited a couple of minutes for the page to provide a link for the completed website.
+
+The link can be you find here 
+
+# Credits
+
+- Media
+  The images was taken from Riot Games own website for ther game League of legends <https://www.leagueoflegends.com/en-gb/>
+
+- Content
+  I took inspiration from the Love Running project. 
+  
 
 

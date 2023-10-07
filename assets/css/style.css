@@ -1,3 +1,4 @@
+/*HEADER*/
 #header {
     background-color: rgb(79, 74, 72, 0.3);
     display: block;
@@ -15,7 +16,7 @@
     margin: 0;
 
 }
-
+/*Menu*/
 #menu {
     float: right;
     padding-right: 30px;
@@ -26,7 +27,7 @@
     color: rgb(33, 30, 29)
 }
 
-
+/*Lists*/
 ul li {
     display: inline;
     padding-right: 20px;
@@ -46,7 +47,7 @@ ul li {
     height: 550px;
 
 }
-
+/*Hero img*/
 #hero {
     position: relative;
     background: url(../css/images/arena-fight.jpeg);
@@ -58,7 +59,7 @@ ul li {
     background-size: cover;
 
 }
-
+/*Button for h-img*/
 #hero-button {
     height: 80%;
     width: 60%;
@@ -74,7 +75,7 @@ ul li {
     text-align: center;
 
 }
-
+/*Text for hero img */
 .hero-text {
     text-align: center;
     background-color: rgb(79, 74, 72, 0.7);
@@ -104,13 +105,17 @@ ul li {
     font-size: 240%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ff0000
+    color: #ff0000;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
 }
 
 #arena-text {
     color: gold;
     font-size: 20px;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
 
 }
 
@@ -146,10 +151,9 @@ ul li {
     text-transform: capitalize;
     padding-bottom: 40px;
 }
-
+/*Text ABOUT ARENA-CLUB*/
 #about-text {
     text-align: center;
-    background-color: rgb(79, 74, 72, 0.7);
     text-transform: uppercase;
     padding: 10px;
     margin: 20px;
@@ -157,6 +161,7 @@ ul li {
     color: gold;
     height: 60%;
     font-size: 130%;
+    background-color: rgba(0, 0, 0, 0.6);
 
 
 }
@@ -191,7 +196,7 @@ ul li {
 }
 
 #sign-text {
-    background-color: rgb(79, 74, 72, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
     width: 40%;
     height: 70%;
     position: absolute;
@@ -310,4 +315,5 @@ ul li {
     text-align: center;
     color: #eb6734;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4);
 }
